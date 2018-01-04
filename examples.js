@@ -45,4 +45,7 @@ function person () {
   
   person().speak() // Inner function invoked outside its lexical Scope
 
+  /*
+    A Closure allows us to expose a public interface while at the same time hiding and preserving execution context from the outside scope.
+  */
 
